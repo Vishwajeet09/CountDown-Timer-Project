@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer</title>
+    <style>
+        body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 100px;
+        }
+        
+        h1 {
+        font-size: 36px;
+        }
+        
+        #timer {
+        font-size: 48px;
+        margin-top: 20px;
+        }
+
+        input {
+        margin-top: 20px;
+        padding: 5px;
+        }
+
+        button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <div id="timer"></div>
+    <input type="number" id="hoursInput" placeholder="Hours">
+    <input type="number" id="minutesInput" placeholder="Minutes">
+    <input type="number" id="secondsInput" placeholder="Seconds">
+    <button onclick="startTimer()">Start</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
